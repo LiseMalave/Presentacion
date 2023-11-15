@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="/Clase-01/Desafio-01/IMG_20230416_173637_827.jpg"
+      alt="foto de Lise"
+      width="470px"
+      height="800px"
+    />
+    <ul>
+      <li>Edad: 35 años</li>
+      <li>Nombre: Lisette</li>
+      <li>Apellido: Malavé</li>
+      <li>mail: malave.lopez@gmail.com</li>
+    </ul>
+    <div>
+      <p>
+        Bienvenido a mi página personal, soy Lisette y voy a ser tu acompañante
+        en este viaje. Te cuento un poco de mi, soy venezolana vivo en Buenos
+        Aires, me encanta salir al parque, ver series y programar. Me llamó
+        atención la programación desde pequeña pero no sabia como meterme en
+        este mundillo. Pase muchos años en la gastronomía hasta que dije basta,
+        me dedique un tiempo a ser freelancer creando proyectos a empresas de
+        afuera y ahora soy desarrolladora frontend en Jp morgan u otra (estas dos últimas cosas son mis dos aspiraciones).
+      </p>
+    </div>
+    <form>
+      <h2>Si quieres saber más contactame y llená el formulario</h2>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="luca" /> <br /><br />
+      <label for="apellido">Apellido: </label>
+      <input type="text" id="apellido" placeholder="nieto" /><br /><br />
+      <label for="edad">Edad: </label>
+      <input type="number" id="edad" /> <br /><br />
+      <label for="genero">Género: </label>
+      <input type="radio" name="genero" id="femenino" />
+      <label for="femenino">Femenino</label>
+      <input type="radio" name="genero" id="masculino" />
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="no-decir" />
+      <label for="no-decir">Prefiero no decirlo</label> <br /><br />
+      <label for="fecha">Fecha de Nacimiento</label>
+      <input type="date" id="fecha" /> <br />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="hola@gmail.com"
+      />
+      <br />
+      <br />
+      <label for="comentarios">Comentarios:</label> <br />
+      <br />
+      <textarea id="comentarios" cols="50" rows="10"></textarea> <br /><br />
+
+      <label for="opciones">Dónde vives:</label>
+
+      <select name="opciones">
+        <option value="buenos-aires">Buenos Aires</option>
+        <option value="mar-del-plata">Mar del Plata</option>
+        <option value="parana">Paraná</option>
+        <option value="mendoza">Mendoza</option>
+        <option value="salta">Salta</option>
+        <option value="rosarioa">Rosario</option>
+        <option value="chubut">Chubut</option>
+      </select>
+      <br />
+      <br />
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
